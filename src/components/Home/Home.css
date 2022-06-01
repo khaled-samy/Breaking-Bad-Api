@@ -1,0 +1,41 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-para {
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+}
+.char-episodes-container {
+  display: flex;
+  justify-content: center;
+}
+
+.char-info {
+  height: 100%;
+  width: 450px;
+  margin: 15px;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.char-info img {
+  height: 300px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+}

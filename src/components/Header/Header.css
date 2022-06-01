@@ -1,0 +1,14 @@
+.header-container{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.header-container img{
+
+height: 120px;
+    width: 150px;
+    border-radius: 10px;
+}
+

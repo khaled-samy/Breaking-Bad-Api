@@ -1,0 +1,31 @@
+.char-card-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px;
+}
+.card-container {
+  height: 450px;
+  display: flex;
+  width: 600px;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+.char-card .char-img {
+  height: 100%;
+  width: 60%;
+}
+
+.char-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+
+  color: black;
+}
+
+.char-card-details p {
+  padding: 20px;
+}

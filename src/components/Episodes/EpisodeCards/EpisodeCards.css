@@ -1,0 +1,25 @@
+.seasons {
+  width: 250px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.episode-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.episode-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  color: black;
+  border-radius: 15px;
+}
+.episode-card .episode {
+  padding: 20px;
+}

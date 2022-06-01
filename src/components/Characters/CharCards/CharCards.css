@@ -1,0 +1,29 @@
+.char-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: auto;
+  justify-content: center;
+}
+
+.char-card {
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.char-card img {
+  height: 350px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+Link {
+  text-decoration: none;
+}
+.char-card .name {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
